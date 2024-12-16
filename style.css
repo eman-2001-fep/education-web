@@ -320,6 +320,8 @@
   }
   
   .card-footer .price {
+    position: relative;
+    top: -120px;
     background: #543DED;
     color: #ffffff;
     padding: 5px 5px;
@@ -669,6 +671,55 @@
   }
   
   /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-btn {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-btn {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  @media (max-width: 800px) {
+    .partners-logs {
+      justify-content: space-evenly;
+    }
+  
+    .partners-logs img {
+      max-width: 100px; 
+      margin: 10px; 
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .partners-logs img {
+      max-width: 80px; 
+    }
+  }
+    
   @media (max-width: 800px) {
     .testimonials {
       flex-direction: column; 
