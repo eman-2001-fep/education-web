@@ -98,6 +98,44 @@
     font-weight: 600;
   }
   
+
+
+.imgs-design {
+  position: relative;
+  height: 100%;
+}
+
+.hero-img {
+  position: absolute;
+  width: 50px; 
+  height: auto;
+}
+
+.img1 {
+  top: 10%;
+  left: 10%; 
+  bottom: 90%;
+  transform: rotate(45deg);
+}
+
+.img2 {
+  top: 40%;
+  right: 5%; 
+  opacity:50%;
+}
+
+.img3 {
+  bottom: -300px;
+  left: 140px; 
+  transform: rotate(370deg);
+}
+
+.img4 {
+  right: 1%; 
+  bottom: -500px;
+  transform: rotate(180deg);
+}
+  
   .hero p {
     font-size: 1.2rem;
     max-width: 600px;
@@ -140,21 +178,21 @@
   }
   .hero h1 {
     position: relative;
-    top: 10%; /* Adjust this value to move the content higher */
+    top: 10%; 
     font-weight: bolder;
 
-    white-space: nowrap; /* Prevent text from wrapping to the next line */
-    font-size: 3rem; /* Adjust the font size if needed */
+    white-space: nowrap; 
+    font-size: 3rem; 
     margin: 10px 40px;
   }
 
   .dotted-square {
-    width: 80%; /* Responsive width */
-    max-width: 1538px; /* Prevent it from growing too big */
-    aspect-ratio: 1538 / 717; /* Maintain the aspect ratio */
-    border: 3px dashed rgba(255, 255, 255, 0.6); /* Dotted border */
-    border-radius: 0 0 60px 0; /* Rounded corners */
-    margin: 2rem auto; /* Centering with a margin */
+    width: 80%; 
+    max-width: 1538px; 
+    aspect-ratio: 1538 / 717; 
+    border: 3px dashed rgba(255, 255, 255, 0.6);
+    border-radius: 0 0 60px 0; 
+    margin: 2rem auto; 
     box-sizing: border-box;
     position: relative;
     text-align: center;
