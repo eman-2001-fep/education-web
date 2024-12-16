@@ -135,25 +135,60 @@
   
   .dotted-line {
     border-top: 1px dashed #ffffff;
-    margin: 10px 0;
+    width: 90%;
+    margin: 10px 60px;
   }
-  
-  .dotted-box {
-    border: 2px dashed #ffffff;
-    padding: 50px;
-    margin-top: 30px;
-    border-radius: 10px;
+  .hero h1 {
+    position: relative;
+    top: 10%; /* Adjust this value to move the content higher */
+    font-weight: bolder;
+
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    font-size: 3rem; /* Adjust the font size if needed */
+    margin: 10px 40px;
   }
-  
+
+  .dotted-square {
+    width: 80%; /* Responsive width */
+    max-width: 1538px; /* Prevent it from growing too big */
+    aspect-ratio: 1538 / 717; /* Maintain the aspect ratio */
+    border: 3px dashed rgba(255, 255, 255, 0.6); /* Dotted border */
+    border-radius: 0 0 60px 0; /* Rounded corners */
+    margin: 2rem auto; /* Centering with a margin */
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+  }
+  .dotted-square-content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+    background-color: #1B143F;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .dotted-square-content p{
+ margin-top: 50px;
+
+  }
+ 
   .rocket-image {
-    margin: 10px auto;
+    position: absolute;
+    bottom: -190px; /* Adjust to overlap neatly */
+    background-color: #1B143F;
+    left: 50%;
+    transform: translateX(-50%);
     height: auto;
-    width: 674px;
-   
+    max-width: 500px; /* Avoid stretching */
+    
   }
+      
   .partners{
     text-align: center;
     padding: 20px;
+    margin-top: 150px;
   }
   .partners-logs  {
     display: flex;
